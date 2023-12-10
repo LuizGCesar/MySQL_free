@@ -105,7 +105,7 @@ CREATE TABLE atendimento
 (
 	id_atendimento INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     data_atendimento DATE,
-    descricacao_servico BLOB,
+    descricao_servico BLOB,
     pecas BLOB,
     valor_servico DECIMAL(8,2),
     cliente_id INT,
